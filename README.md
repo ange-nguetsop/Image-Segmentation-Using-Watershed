@@ -7,6 +7,7 @@ This project aims to develop a system capable of detecting and tracking a specif
 - **Object Identification**: Under certain conditions, specify the nature of the detected object.
 
 ## Output
+
 [!Alt Beispiel](https://github.com/ange-nguetsop/ImageSegmentation001/blob/master/Beispiel.gif)
 
 ### Challenges and Solutions
