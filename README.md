@@ -14,11 +14,8 @@ This project aims to develop a system capable of detecting and tracking a specif
 1. **Calibration of HSV Values**
    The first challenge was to find the optimal HSV values to isolate the desired color under various lighting conditions. For this, a function for manual adjustment of HSV values was used, testing on multiple photos taken under varied conditions. After numerous trials, the ideal values were determined.
 
-2. **Detection of Closed Contours**
-   A major issue encountered was forcing the algorithm to detect only closed contours. Various image processing techniques such as erosion, dilation, and thresholding were applied to achieve closed contours, a crucial step for the system's accuracy.
-
-3. **Filtering of Contours**
-   After obtaining closed contours, it was necessary to filter the internal contours to keep only the most external ones. This step effectively isolated the object of interest.
+2. **Use of the watershed method**
+   After the calibration step, all that remained was to use the watershed method, and the job was done
 
 ### Results
 The developed system successfully identified and clearly encircled tomatoes in various images and could even count the number of tomatoes detected by the system. The system is adaptable and can be modified to isolate other fruits or vegetables, such as avocados or oranges.
