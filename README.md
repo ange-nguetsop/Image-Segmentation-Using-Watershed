@@ -8,7 +8,7 @@ This project aims to develop a system capable of detecting and tracking a specif
 
 ## Output
 
-[!Alt Beispiel](https://github.com/ange-nguetsop/ImageSegmentation001/blob/master/Beispiel.gif)
+![Alt Beispiel](https://github.com/ange-nguetsop/ImageSegmentation001/blob/master/Beispiel.gif)
 
 ### Challenges and Solutions
 1. **Calibration of HSV Values**
