@@ -6,6 +6,9 @@ This project aims to develop a system capable of detecting and tracking a specif
 - **Object Tracking**: Track this object in a video sequence.
 - **Object Identification**: Under certain conditions, specify the nature of the detected object.
 
+## Output
+[!Alt](https://github.com/ange-nguetsop/ImageSegmentation001/blob/master/Beispiel.gif)
+
 ### Challenges and Solutions
 1. **Calibration of HSV Values**
    The first challenge was to find the optimal HSV values to isolate the desired color under various lighting conditions. For this, a function for manual adjustment of HSV values was used, testing on multiple photos taken under varied conditions. After numerous trials, the ideal values were determined.
