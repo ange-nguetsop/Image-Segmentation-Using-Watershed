@@ -1,5 +1,5 @@
 ### Introduction
-This project aims to develop a system capable of detecting and tracking a specific object based on its color, applicable to both still images and videos using watershed algorithm. Such technology finds its utility in various fields, particularly in the industry, where precise object recognition can be crucial.
+This project aims to develop a system capable of detecting and tracking a specific object based on its color, applicable to both still images and videos using watershed algorithm. Watershed is a computer vision and image segmentation technique used for segmenting objects or regions of interest in an image. It is particularly useful when you have an image with objects that touch or overlap each other, and you want to separate them into distinct segments.
 
 ### Objectives
 - **Color Detection**: Isolate a specific object (like a tomato) in an image using its color.
